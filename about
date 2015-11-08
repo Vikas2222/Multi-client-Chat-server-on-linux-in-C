@@ -1,0 +1,27 @@
+Name of Project : MAN-KI-BAAT chat server
+
+AIM of project : make a chat server that can communicate with multiple client and display time.
+
+Created by : Vikas Patel (150850330055) - patel2vikas@gmail.com
+.................................................................................
+server :
+	-> select API for checking file discriptors
+	-> server can monitor messeges
+
+client :
+	-> we can give the name of host
+	-> rx and tx is done using thread
+................................................................................
+
+for time, i have used time API because for some reasons PORT '13' is not working.
+(tried it from book - LINUX programming pg-627)
+
+................................................................................
+limitations :
+	client is identified using its name(instad of IP)
+	
+................................................................................
+FUTURE EXPANTION:
+1> i am trying to make that client have choices to send message to all/single client
+2> if any client is asking for connetion then server will ask for password
+................................................................................
